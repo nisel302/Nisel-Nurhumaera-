@@ -1,0 +1,45 @@
+/* Reset dasar agar rapih */
+body {
+    margin: 0;
+    font-family: sans-serif;
+    line-height: 1.6;
+    color: #333;
+
+}
+/* Navigasi */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 5%;
+    background: #222;
+    color: #fff;
+
+}
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 15px;
+
+}
+/* Bagian utama (Hero) */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: #f4f4f4;
+}
+.btn {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+/* Bagian konten */
+.section, footer {
+    padding: 40px 5%;
+    text-align: center;
+}
+#contact {
+    background: #eee;
+}
